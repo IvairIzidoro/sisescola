@@ -10,7 +10,7 @@ class connection
     private $dbHost = "localhost"; // servidor
     private $dbUser = "root"; // usuario do banco
     private $dbPassword = ""; // senha do usuario do banco
-    private $dbName = "mapa"; // nome do banco
+    private $dbName = "escola"; // nome do banco
 
     private $con = false;
 

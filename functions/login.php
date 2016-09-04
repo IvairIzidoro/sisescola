@@ -15,15 +15,15 @@
         }
             
         function diretor(){
-            window.location = '../index.php?pages=painel-diretor';
+            window.location = '../index.php?pages/panel=painel-diretor';
         }
             
         function professor(){
-            window.location = '../index.php?pages=painel-professor';
+            window.location = '../index.php?pages/panel=painel-professor';
         }
         
         function aluno(){
-            window.location = '../index.php?pages=painel-aluno';
+            window.location = '../index.php?pages/panel=painel-aluno';
         }
         </script>
     </head>

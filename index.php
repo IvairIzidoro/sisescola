@@ -12,9 +12,9 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="/css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link rel="stylesheet" href="/font/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" href="./font/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Bree+Serif|Pacifico|Titillium+Web" rel="stylesheet"> 
 	
 	<title>Escola Ficticia</title>
