@@ -1,0 +1,140 @@
+/* ****** GERAL ****** */
+html, body {
+    
+    background-image: url(../img/background.jpg);
+    margin: 0;
+    border: 0;
+}
+h1{
+    font-family: Pacifico,  cursive, sans-serif;
+    font-size: 85px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    
+} 
+
+p{
+    font-family: "Titillium Web", cursive, sans-serif;
+    font-size: 22px;
+    color: #000000;
+}
+/* ****** MENU HORIZONTAL ****** */
+
+#menu {
+    position: fixed;
+    width: 100%;
+    float: left;
+    background: #BCF141;
+    height: 50px;
+    border-bottom: 1px solid #F9F9F9;
+    
+}
+
+#menu ul { 
+    width: 68%;
+    /*position: fixed;*/
+    margin: 0;
+    padding:0;
+    list-style: none; 
+    background: #BCF141;
+    line-height: 50px;
+    margin-left: 18%;
+
+}
+
+#menu li a {
+    margin: 0;
+    width: 220px;
+    height: 50px;
+    padding: 0;
+    float: left;
+    
+}
+
+#menu a { 
+    margin: 0;
+    border-radius: 3px;
+    font-family: 'Baloo Bhaina', cursive, sans-serif;
+    text-decoration: none; 
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+
+}
+
+#menu ul li a:hover{
+    
+    line-height: 55px;
+    background: #449918/*#46AF00*/;
+    border-radius: 3px;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+/* CONFIGURANDO ICONES DOS BOTOES */
+
+span {
+    float: left;
+    margin: 13px 0px 0px 20px;    
+}
+/* ***** DIV RESPONSAVEL PELO MEIO DO SITE ***** */
+#geral {
+    
+	width: 95%;
+	margin: 0px 20px;
+}
+
+/*  ****** TELA LOGIN ***** */
+.login{
+    border-radius: 3px;
+    padding: 50px;
+    margin: 0  auto;
+    border: 1px solid #F9F9F9;
+    width: 400px;
+    height: 280px;
+    box-shadow: 2px 2px 5px #000000;
+    
+}
+
+.login span{
+    float: left;
+    margin: 10px 15px 10px -25px; 
+    
+}
+
+.login p {
+    margin: 10px 10px 10px 40px;
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Baloo Bhaina', cursive, sans-serif;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.login input {
+    width: 380px;
+    font-family: 'Bree Serif', cursive, sans-serif;
+    margin: 0 0 0 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 3px;
+    
+}
+
+.login input[type=submit] {
+    font-size: 22px;
+    margin: 10px;
+    width: 395px;
+    line-height: 40px;
+    font-family: 'Baloo Bhaina', cursive, sans-serif;
+    color: #000000;
+    background: #BCF141;
+    text-shadow: 1px 1px 4px #FFFFFF;
+}
+.login input[type=submit]:hover{
+    background: #449918;
+    border-radius: 3px;
+    text-shadow: 1px 1px 4px #000000;
+    color: #FFFFFF;
+    
+}
